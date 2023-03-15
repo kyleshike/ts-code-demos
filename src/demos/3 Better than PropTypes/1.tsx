@@ -22,6 +22,15 @@ function Alert({ isError, message }: AlertProps) {
   );
 }
 
+export function App() {
+  return (
+    <>
+      <Alert message="success message" />
+      <Alert isError message="error message" />
+    </>
+  );
+}
+
 // enum AlertType {
 //   error = "error",
 //   info = "info",
@@ -56,11 +65,11 @@ function Alert({ isError, message }: AlertProps) {
 //   );
 // }
 
-export function App() {
-  return (
-    <>
-      <Alert message="success message" />
-      <Alert isError message="error message" />
-    </>
-  );
-}
+// export function App() {
+//   return (
+//     <>
+//       <Alert message="success message" />
+//       <Alert isError message="error message" />
+//     </>
+//   );
+// }

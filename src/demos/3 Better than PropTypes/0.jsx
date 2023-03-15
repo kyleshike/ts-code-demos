@@ -27,6 +27,15 @@ AlertBasic.defaultProps = {
   isError: false,
 };
 
+export function App() {
+  return (
+    <>
+      <Alert message="success message" />
+      <Alert isError message="error message" />
+    </>
+  );
+}
+
 // const AlertType = {
 //   error: "error",
 //   info: "info",
@@ -63,11 +72,11 @@ AlertBasic.defaultProps = {
 //   message: PropTypes.string.isRequired,
 // };
 
-export function App() {
-  return (
-    <>
-      <Alert message="success message" />
-      <Alert isError message="error message" />
-    </>
-  );
-}
+// export function App() {
+//   return (
+//     <>
+//       <Alert message="success message" />
+//       <Alert isError message="error message" />
+//     </>
+//   );
+// }

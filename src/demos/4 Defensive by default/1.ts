@@ -92,6 +92,6 @@
 //   return `id: ${data.id}, name: ${data.name}`;
 // }
 
-// export {};
-
 // https://www.typescriptlang.org/docs/handbook/2/narrowing.html
+
+export {};
